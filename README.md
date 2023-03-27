@@ -1,14 +1,25 @@
 # serpent-os-repos
 
-Repositories for Serpent OS.
+Repositories for [Serpent OS](https://github.com/serpent-os).
 
 This collection uses the [mani](https://manicli.com/) repository manager.
 
 ## Setup
 
-The mani command-line tool is a single executable file.
+The [mani](https://manicli.com/) command-line tool is a single executable file.
 
-To install mani, either use Homebrew, or fetch the current release from [the releases on GitHub](https://github.com/alajmo/mani/releases). If you download the tool manually, ensure that you set the permissions on the file as executable.
+To install mani, either use [Homebrew](https://github.com/alajmo/mani#installation), or fetch the latest  release from [the releases on GitHub](https://github.com/alajmo/mani/releases).
+
+Follow these commands to install mani on a Linux system from GitHub:
+
+    # Replace 0.23.0 on this line with latest version of mani from https://github.com/alajmo/mani/releases
+    export MANI_VERSION=0.23.0
+
+    mkdir -p $HOME/bin
+    curl -L https://github.com/alajmo/mani/releases/download/v$MANI_VERSION/mani_$MANI_VERSION_linux_amd64.tar.gz > mani.tar.gz
+    tar xvzf mani.tar.gz
+    cp mani $HOME/bin
+    rm mani* LICENSE
 
 ## Usage
 
