@@ -36,3 +36,9 @@ To run a task:
 
   # Run task <task> for all projects that have tags <tag>
   mani run <task> --tags <tag>
+
+## License
+
+Refer to the LICENSE file for the license on the unique content for this repository.
+
+Refer to the LICENSE files in the managed repositories for licensing of the content of those repositories.
