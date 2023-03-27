@@ -1,2 +1,5 @@
 # serpent-os-repos
-Repos for Serpent OS
+
+Repositories for Serpent OS.
+
+This collection uses the [mani](https://manicli.com/) repository manager.
