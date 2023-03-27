@@ -1,5 +1,5 @@
 projects:
-  repos:
+  serpent-os-repos:
     path: .
   
   serpentos.com:
