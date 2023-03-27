@@ -10,6 +10,10 @@ projects:
     url: git@github.com:serpent-os/docs.git
     tags: [content]
 
+  onboarding:
+    url: git@github.com:serpent-os/onboarding.git
+    tags: [build, content]
+
 specs:
   custom:
     output: table
