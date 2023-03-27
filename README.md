@@ -28,14 +28,14 @@ To see the available tasks, run *mani list task*:
 
 To run a task:
 
-  # Run task <task> for all projects
-  mani run <task> --all
+    # Run task <task> for all projects
+    mani run <task> --all
 
-  # Run task <task> for all projects <project>
-  mani run <task> --projects <project>
+    # Run task <task> for all projects <project>
+    mani run <task> --projects <project>
 
-  # Run task <task> for all projects that have tags <tag>
-  mani run <task> --tags <tag>
+    # Run task <task> for all projects that have tags <tag>
+    mani run <task> --tags <tag>
 
 ## License
 
