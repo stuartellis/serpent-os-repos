@@ -16,7 +16,7 @@ Follow these commands to install mani on a Linux system from GitHub:
     export MANI_VERSION=0.23.0
 
     mkdir -p $HOME/bin
-    curl -L https://github.com/alajmo/mani/releases/download/v$MANI_VERSION/mani_$MANI_VERSION_linux_amd64.tar.gz > mani.tar.gz
+    curl -L https://github.com/alajmo/mani/releases/download/v$MANI_VERSION/mani_$MANI_VERSION\_linux_amd64.tar.gz > mani.tar.gz
     tar xvzf mani.tar.gz
     cp mani $HOME/bin
     rm mani* LICENSE
